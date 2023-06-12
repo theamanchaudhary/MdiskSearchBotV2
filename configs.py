@@ -10,7 +10,7 @@ class Config(object):
     BOT_TOKEN = os.getenv("BOT_TOKEN", "6192240484:AAHuhg33vVhT2IiHXIaTPLEEQsuP-j2SmL0")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "channelsearchbot")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BQANOTEuMTA4LjU2LjEzMAG7T28DIEZS3pIg2YMTEt7KJYkPL7PoOB4PLpCfhwzcWh1fgYuy/RMHrfbtW3DrVQC+UPdQQDI6rJNpQOXsg+Ml+VhN8Bl2/F5RL3XkFsm9kK8OV7DmEH33C3k1eMhAhyjYKZmzegmzhRL0PudQHYxNV7ynfiOjjc5Wg0h+9LIOVkFsvS9846JXNhOLfrei9M1vld0iW+0ITaHRuFvxJdqdohSvXiPS0nfTvYDgYG3IXJdpNbcHpJZvwWemzC0bNbrqr/z1htB1fxireiY1mNhYLufMlVTtBABxoKIjbmVyCYyLOIj7PYSdxc0oxEHbVv5e08eznBUAwRY8sVZZXjeRCw==")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "--1001711980320")) 
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001711980320")) 
     BOT_USERNAME = os.getenv("BOT_USERNAME", "channel_searchbot")
     BOT_OWNER = int(os.getenv("BOT_OWNER", "5674333293"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "theamanchaudhary")
